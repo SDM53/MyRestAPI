@@ -1,5 +1,5 @@
 {
-  "name": "rest-api",
+  "name": "my-projects-rest-api",
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
@@ -13,6 +13,7 @@
     "bcryptjs": "^3.0.3",
     "drizzle-orm": "^0.45.1",
     "hono": "^4.12.5",
+    "hono-rate-limiter": "^0.5.3",
     "zod": "^4.3.6"
   },
   "devDependencies": {
