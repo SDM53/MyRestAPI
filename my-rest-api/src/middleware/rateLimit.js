@@ -1,4 +1,4 @@
-import {ApiError } from '../utils/erros.js'
+import {ApiError } from '../utils/errors.js'
 
 export function rateLimitMiddleware(bindingName) {
     return async (c, next) => {
