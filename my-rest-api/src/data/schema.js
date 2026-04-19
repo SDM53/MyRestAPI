@@ -23,6 +23,7 @@ export const projects = sqliteTable(
   (table) => [index('idx_projects_user_id').on(table.userId)],
 )
 
+
 export const tasks = sqliteTable(
   'tasks',
   {

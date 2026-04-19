@@ -1,7 +1,6 @@
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 import { rateLimiter } from 'hono-rate-limiter'
-
 import auth from './routes/auth.js'
 import projects from './routes/projects.js'
 import tasks from './routes/tasks.js'
